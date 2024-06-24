@@ -1,5 +1,5 @@
-from src.hangman import Hangman 
-from src.utils import yn_input
+from hangman import Hangman 
+from utils import yn_input
 
 def app():
     print(f"Welcome to pythonic-hangman\n")
