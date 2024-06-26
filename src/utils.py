@@ -33,3 +33,10 @@ def yn_input(question: str) -> bool:
         return False
     else:
         raise InputError
+    
+def load_dictionary(path: str) -> list[str]:
+    dictionary = []
+    with open(path, 'r') as file:
+        dictionary = file.readlines()
+        
+    return dictionary
