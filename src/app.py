@@ -2,8 +2,8 @@ import os
 from hangman import Hangman 
 from utils import load_animation, load_dictionary, yn_input
 
-DICTIONARY_PATH = "./resources/dictionary.txt"
-ANIMATION_PATH = "./resources/animation.anim"
+DICTIONARY_PATH = "./src/resources/dictionary.txt"
+ANIMATION_PATH = "./src/resources/animation.anim"
 
 def app() -> None:
     os.system('cls' if os.name == 'nt' else 'clear')

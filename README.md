@@ -4,6 +4,12 @@ Hangman in Python
 Run by running the hangman bash script:
 
 ```
+bash hangman.sh
+```
+
+or setting file execution permissions then runnning:
+
+```
 ./hangman.sh
 ```
 
